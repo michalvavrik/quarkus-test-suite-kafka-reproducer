@@ -364,7 +364,7 @@
                 <defaultGoal>clean compile</defaultGoal>
             </build>
             <modules>
-                <module>env-info</module>
+<!--                <module>env-info</module>-->
             </modules>
         </profile>
         <profile>
@@ -376,49 +376,49 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>config</module>
-                <module>properties</module>
-                <module>docker-build</module>
-                <module>javaee-like-getting-started</module>
-                <module>scaling</module>
-                <module>service-discovery/stork</module>
-                <module>service-discovery/stork-custom</module>
-                <module>lifecycle-application</module>
-                <module>external-applications</module>
-                <module>scheduling/quartz</module>
-                <module>infinispan-client</module>
-                <module>super-size/many-extensions</module>
-                <module>quarkus-cli</module>
-                <!-- TODO: https://github.com/quarkusio/quarkus/issues/28007 -->
-                <!-- <module>kamelet</module>-->
-                <module>logging/jboss</module>
-                <module>cache/caffeine</module>
-                <module>qute/multimodule</module>
-                <module>qute/synchronous</module>
-                <module>qute/reactive</module>
-                <module>helm/helm-minimum</module>
+<!--                <module>env-info</module>-->
+<!--                <module>config</module>-->
+<!--                <module>properties</module>-->
+<!--                <module>docker-build</module>-->
+<!--                <module>javaee-like-getting-started</module>-->
+<!--                <module>scaling</module>-->
+<!--                <module>service-discovery/stork</module>-->
+<!--                <module>service-discovery/stork-custom</module>-->
+<!--                <module>lifecycle-application</module>-->
+<!--                <module>external-applications</module>-->
+<!--                <module>scheduling/quartz</module>-->
+<!--                <module>infinispan-client</module>-->
+<!--                <module>super-size/many-extensions</module>-->
+<!--                <module>quarkus-cli</module>-->
+<!--                &lt;!&ndash; TODO: https://github.com/quarkusio/quarkus/issues/28007 &ndash;&gt;-->
+<!--                &lt;!&ndash; <module>kamelet</module>&ndash;&gt;-->
+<!--                <module>logging/jboss</module>-->
+<!--                <module>cache/caffeine</module>-->
+<!--                <module>qute/multimodule</module>-->
+<!--                <module>qute/synchronous</module>-->
+<!--                <module>qute/reactive</module>-->
+<!--                <module>helm/helm-minimum</module>-->
             </modules>
         </profile>
         <profile>
             <id>root-modules-no-qute</id>
             <modules>
-                <module>env-info</module>
-                <module>config</module>
-                <module>properties</module>
-                <module>docker-build</module>
-                <module>javaee-like-getting-started</module>
-                <module>scaling</module>
-                <module>lifecycle-application</module>
-                <module>external-applications</module>
-                <module>scheduling/quartz</module>
-                <module>infinispan-client</module>
-                <module>super-size/many-extensions</module>
-                <module>quarkus-cli</module>
+<!--                <module>env-info</module>-->
+<!--                <module>config</module>-->
+<!--                <module>properties</module>-->
+<!--                <module>docker-build</module>-->
+<!--                <module>javaee-like-getting-started</module>-->
+<!--                <module>scaling</module>-->
+<!--                <module>lifecycle-application</module>-->
+<!--                <module>external-applications</module>-->
+<!--                <module>scheduling/quartz</module>-->
+<!--                <module>infinispan-client</module>-->
+<!--                <module>super-size/many-extensions</module>-->
+<!--                <module>quarkus-cli</module>-->
                 <!-- TODO: https://github.com/quarkusio/quarkus/issues/28007 -->
                 <!-- <module>kamelet</module>-->
-                <module>logging/jboss</module>
-                <module>cache/caffeine</module>
+<!--                <module>logging/jboss</module>-->
+<!--                <module>cache/caffeine</module>-->
             </modules>
         </profile>
         <profile>
@@ -430,22 +430,22 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>http/http-minimum</module>
-                <module>http/http-minimum-reactive</module>
-                <module>http/http-advanced</module>
-                <module>http/http-advanced-reactive</module>
-                <module>http/http-static</module>
-                <module>http/jaxrs</module>
-                <module>http/jaxrs-reactive</module>
-                <module>http/reactive-routes</module>
-                <module>http/rest-client</module>
-                <module>http/rest-client-reactive</module>
-                <module>http/servlet-undertow</module>
-                <module>http/vertx-web-client</module>
-                <module>http/hibernate-validator</module>
-                <module>http/graphql</module>
-                <module>http/graphql-telemetry</module>
+<!--                <module>env-info</module>-->
+<!--                <module>http/http-minimum</module>-->
+<!--                <module>http/http-minimum-reactive</module>-->
+<!--                <module>http/http-advanced</module>-->
+<!--                <module>http/http-advanced-reactive</module>-->
+<!--                <module>http/http-static</module>-->
+<!--                <module>http/jaxrs</module>-->
+<!--                <module>http/jaxrs-reactive</module>-->
+<!--                <module>http/reactive-routes</module>-->
+<!--                <module>http/rest-client</module>-->
+<!--                <module>http/rest-client-reactive</module>-->
+<!--                <module>http/servlet-undertow</module>-->
+<!--                <module>http/vertx-web-client</module>-->
+<!--                <module>http/hibernate-validator</module>-->
+<!--                <module>http/graphql</module>-->
+<!--                <module>http/graphql-telemetry</module>-->
             </modules>
         </profile>
         <profile>
@@ -457,25 +457,25 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>security/basic</module>
-                <module>security/bouncycastle-fips</module>
-                <module>security/form-authn</module>
-                <module>security/https</module>
-                <module>security/jwt</module>
-                <module>security/keycloak</module>
-                <module>security/keycloak-authz-classic</module>
-                <module>security/keycloak-authz-reactive</module>
-                <module>security/keycloak-jwt</module>
-                <module>security/keycloak-webapp</module>
-                <module>security/keycloak-oauth2</module>
-                <module>security/keycloak-multitenant</module>
-                <module>security/keycloak-oidc-client-basic</module>
-                <module>security/keycloak-oidc-client-extended</module>
-                <module>security/keycloak-oidc-client-reactive-basic</module>
-                <module>security/keycloak-oidc-client-reactive-extended</module>
-                <module>security/vertx-jwt</module>
-                <module>security/oidc-client-mutual-tls</module>
+<!--                <module>env-info</module>-->
+<!--                <module>security/basic</module>-->
+<!--                <module>security/bouncycastle-fips</module>-->
+<!--                <module>security/form-authn</module>-->
+<!--                <module>security/https</module>-->
+<!--                <module>security/jwt</module>-->
+<!--                <module>security/keycloak</module>-->
+<!--                <module>security/keycloak-authz-classic</module>-->
+<!--                <module>security/keycloak-authz-reactive</module>-->
+<!--                <module>security/keycloak-jwt</module>-->
+<!--                <module>security/keycloak-webapp</module>-->
+<!--                <module>security/keycloak-oauth2</module>-->
+<!--                <module>security/keycloak-multitenant</module>-->
+<!--                <module>security/keycloak-oidc-client-basic</module>-->
+<!--                <module>security/keycloak-oidc-client-extended</module>-->
+<!--                <module>security/keycloak-oidc-client-reactive-basic</module>-->
+<!--                <module>security/keycloak-oidc-client-reactive-extended</module>-->
+<!--                <module>security/vertx-jwt</module>-->
+<!--                <module>security/oidc-client-mutual-tls</module>-->
             </modules>
         </profile>
         <profile>
@@ -487,25 +487,25 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>messaging/amqp-reactive</module>
-                <module>messaging/qpid</module>
-                <module>messaging/kafka-streams-reactive-messaging</module>
+<!--                <module>env-info</module>-->
+<!--                <module>messaging/amqp-reactive</module>-->
+<!--                <module>messaging/qpid</module>-->
+<!--                <module>messaging/kafka-streams-reactive-messaging</module>-->
                 <module>messaging/kafka-confluent-avro-reactive-messaging</module>
                 <module>messaging/kafka-strimzi-avro-reactive-messaging</module>
-                <module>messaging/kafka-producer</module>
-                <module>messaging/kafkaSSL</module>
-                <module>messaging/infinispan-grpc-kafka</module>
-                <module>messaging/cloud-events/amqp-binary</module>
-                <module>messaging/cloud-events/amqp-json</module>
+<!--                <module>messaging/kafka-producer</module>-->
+<!--                <module>messaging/kafkaSSL</module>-->
+<!--                <module>messaging/infinispan-grpc-kafka</module>-->
+<!--                <module>messaging/cloud-events/amqp-binary</module>-->
+<!--                <module>messaging/cloud-events/amqp-json</module>-->
             </modules>
         </profile>
         <profile>
             <id>messaging-modules-no-kafka</id>
             <modules>
-                <module>env-info</module>
-                <module>messaging/amqp-reactive</module>
-                <module>messaging/qpid</module>
+<!--                <module>env-info</module>-->
+<!--                <module>messaging/amqp-reactive</module>-->
+<!--                <module>messaging/qpid</module>-->
             </modules>
         </profile>
         <profile>
@@ -517,15 +517,15 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>monitoring/micrometer-prometheus</module>
-                <module>monitoring/micrometer-prometheus-kafka</module>
-                <module>monitoring/micrometer-prometheus-kafka-reactive</module>
-                <module>monitoring/micrometer-prometheus-oidc</module>
-                <module>monitoring/opentelemetry</module>
-                <module>monitoring/opentelemetry-reactive</module>
-                <module>monitoring/microprofile-opentracing</module>
-                <module>monitoring/opentracing-reactive-grpc</module>
+<!--                <module>env-info</module>-->
+<!--                <module>monitoring/micrometer-prometheus</module>-->
+<!--                <module>monitoring/micrometer-prometheus-kafka</module>-->
+<!--                <module>monitoring/micrometer-prometheus-kafka-reactive</module>-->
+<!--                <module>monitoring/micrometer-prometheus-oidc</module>-->
+<!--                <module>monitoring/opentelemetry</module>-->
+<!--                <module>monitoring/opentelemetry-reactive</module>-->
+<!--                <module>monitoring/microprofile-opentracing</module>-->
+<!--                <module>monitoring/opentracing-reactive-grpc</module>-->
             </modules>
         </profile>
         <profile>
@@ -537,16 +537,16 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>sql-db/hibernate</module>
-                <module>sql-db/sql-app</module>
-                <module>sql-db/multiple-pus</module>
-                <module>sql-db/panache-flyway</module>
-                <module>sql-db/reactive-rest-data-panache</module>
-                <module>sql-db/vertx-sql</module>
-                <module>sql-db/hibernate-reactive</module>
-                <module>sql-db/reactive-vanilla</module>
-                <module>sql-db/hibernate-fulltext-search</module>
+<!--                <module>env-info</module>-->
+<!--                <module>sql-db/hibernate</module>-->
+<!--                <module>sql-db/sql-app</module>-->
+<!--                <module>sql-db/multiple-pus</module>-->
+<!--                <module>sql-db/panache-flyway</module>-->
+<!--                <module>sql-db/reactive-rest-data-panache</module>-->
+<!--                <module>sql-db/vertx-sql</module>-->
+<!--                <module>sql-db/hibernate-reactive</module>-->
+<!--                <module>sql-db/reactive-vanilla</module>-->
+<!--                <module>sql-db/hibernate-fulltext-search</module>-->
             </modules>
         </profile>
         <profile>
@@ -558,9 +558,9 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>nosql-db/mongodb</module>
-                <module>nosql-db/mongodb-reactive</module>
+<!--                <module>env-info</module>-->
+<!--                <module>nosql-db/mongodb</module>-->
+<!--                <module>nosql-db/mongodb-reactive</module>-->
             </modules>
         </profile>
         <profile>
@@ -572,8 +572,8 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>service-binding/postgresql-crunchy</module>
+<!--                <module>env-info</module>-->
+<!--                <module>service-binding/postgresql-crunchy</module>-->
             </modules>
         </profile>
         <profile>
@@ -585,14 +585,14 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>spring/spring-data</module>
-                <module>spring/spring-web</module>
-                <module>spring/spring-web-reactive</module>
-                <module>spring/spring-properties</module>
-                <module>spring/spring-cloud-config</module>
-                <module>cache/spring</module>
-                <module>scheduling/spring</module>
+<!--                <module>env-info</module>-->
+<!--                <module>spring/spring-data</module>-->
+<!--                <module>spring/spring-web</module>-->
+<!--                <module>spring/spring-web-reactive</module>-->
+<!--                <module>spring/spring-properties</module>-->
+<!--                <module>spring/spring-cloud-config</module>-->
+<!--                <module>cache/spring</module>-->
+<!--                <module>scheduling/spring</module>-->
             </modules>
         </profile>
         <profile>
@@ -604,7 +604,7 @@
                 </property>
             </activation>
             <modules>
-                <module>test-tooling/pact</module>
+<!--                <module>test-tooling/pact</module>-->
             </modules>
         </profile>
         <profile>
@@ -616,9 +616,9 @@
                 </property>
             </activation>
             <modules>
-                <module>env-info</module>
-                <module>websockets/quarkus-websockets</module>
-                <module>websockets/websockets-client</module>
+<!--                <module>env-info</module>-->
+<!--                <module>websockets/quarkus-websockets</module>-->
+<!--                <module>websockets/websockets-client</module>-->
             </modules>
         </profile>
         <profile>
